@@ -1,14 +1,33 @@
 body {
-    background-color: lightblue;
-     text-align: center;
-     .perfil {
-    border-radius: 50%;
+    background: linear-gradient(135deg, #dce9f5, #a9c7e8);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 15px;
+    box-sizing: border-box;
 }
-}
+
      .perfil {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
 }
+.botao {
+    display: block;
+    width: 250px;
+    padding: 15px;
+    margin: 10px auto;
+    background-color: #263D5B;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    max-width: 80%;
+    box-sizing: border-box;
+}
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #263D5B;
 }
